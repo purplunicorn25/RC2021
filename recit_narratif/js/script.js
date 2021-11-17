@@ -43,8 +43,8 @@ function dataError(request, textStatus, error) {
 // Store the data in arrays, display the element that require the data,
 // And start the game
 function dataLoaded(data) {
-  screenWidth = $(document).width() * 0.7;
-  screenHeight = $(document).height() * 0.7;
+  screenWidth = $(document).width() * 0.6;
+  screenHeight = $(document).height() * 0.6;
   recit = data.recit;
   appendPool();
 }
