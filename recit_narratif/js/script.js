@@ -11,6 +11,11 @@ author, and this description to match your project!
 ******************/
 
 let recit = [];
+//
+let divsize = 600;
+
+let screenWidth;
+let screenHeight;
 
 // When the document is loaded call setup
 $(document).ready(setup);
@@ -38,7 +43,21 @@ function dataError(request, textStatus, error) {
 // Store the data in arrays, display the element that require the data,
 // And start the game
 function dataLoaded(data) {
+  screenWidth = $(document).width() * 0.7;
+  screenHeight = $(document).height() * 0.7;
   recit = data.recit;
+  appendPool();
+}
+
+//
+//
+//
+function appendPool() {
+  $('body').append(`<div id="pool"></div>`);
+  $('#pool').css({
+    "width": `${screenWidth}`,
+    "height": `${screenHeight}`
+  });
   appendText();
 }
 
@@ -47,15 +66,13 @@ function dataLoaded(data) {
 // Display text from JSON file
 function appendText() {
   //
-  let divsize = 600;
-  //
   for (let i = 0; i < recit.length; i++) {
     $('#pool').append(`<div id=${recit[i].id} class="text">${recit[i].text}</div>`);
   }
   //
   for (let i = 0; i < recit.length; i++) {
-    let posx = (Math.random() * ($(document).width() - divsize)).toFixed();
-    let posy = (Math.random() * ($(document).height() - divsize)).toFixed();
+    let posx = (Math.random() * (screenWidth)).toFixed();
+    let posy = (Math.random() * (screenHeight)).toFixed();
     console.log(posx)
     $(`#${recit[i].id}`).css({
       'width': divsize + 'px',
@@ -65,4 +82,28 @@ function appendText() {
       'top': posy + 'px'
     });
   }
+  click();
+}
+
+function click() {
+  let active = -1;
+  $('body').click(() => {
+    //
+    if (active == -1) {
+      $(`#-1`).addClass("title");
+    } else {
+      $(`#-1`).removeClass("title")
+    }
+    for (let i = 0; i < recit.length; i++) {
+      //
+      $(`#${active-1}`).removeClass("active");
+      $(`#${active}`).addClass("active");
+    };
+    //
+    active++;
+    //
+    if (active == recit.length) {
+      active = -1
+    }
+  })
 }
