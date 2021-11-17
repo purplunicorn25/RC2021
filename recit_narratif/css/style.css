@@ -1,0 +1,39 @@
+/*********************************************
+
+Here is a description of any special CSS used.
+In this case it's just padding and margin to 0
+so the canvas is flush with the top left corner.
+
+**********************************************/
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1+Code:wght@500&display=swap');
+
+body {
+  height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+div {}
+
+.text {
+  font-size: 30px;
+  color: lightgrey;
+  font-family: 'M PLUS 1 Code', sans-serif;
+}
+
+.active {}
+
+/* include border and padding in element width and height */
+* {
+  box-sizing: border-box;
+}
+
+/* full-sized  container that fills up the page */
+#pool {
+  height: 98%;
+  width: 98%;
+  /* example padding, font-size, background, etc */
+  padding: 10px;
+  font-size: 20px;
+}

@@ -1,0 +1,97 @@
+{
+  "description": "recit pratique en morceau",
+  "recit": [{
+    "text": "C'est l'heure, je dois  imprimer un textile 3D et apprendre utiliser une imprimante 3D.",
+    "id": 0
+  }, {
+    "text": "Par où commencer? Que veux-je réaliser?",
+    "id": 1
+  }, {
+    "text": "Je pense à Loie Fuller.",
+    "id": 2
+  }, {
+    "text": "J'imagine des arabesques embellies par une jambe ample. Et des premières positions en rigides et droites. ",
+    "id": 3
+  }, {
+    "text": "Des plis... Il me faut des plis.\nJe n'en ai jamais vu en impression textile 3D.",
+    "id": 4
+  }, {
+    "text": "Comment aller chercher beaucoup d'amplitude horizontalement sans que le textile s'affaisse avec la gravité?",
+    "id": 5
+  }, {
+    "text": "*Moment d'observation sur thingiverse.com*",
+    "id": 6
+  }, {
+    "text": "Des chaînes, des mailles, des RECTANGLES!",
+    "id": 7
+  }, {
+    "text": "Des rectangles et des carrés (un carré est un rectangle, mais un rectangle n'est pas un carré).",
+    "id": 8
+  }, {
+    "text": "Comment attacher les 3 parties ensemble pour faire un échantillon?\nUne clip... une clip ça va régler le problème de la longueur pour l'impression.",
+    "id": 9
+  }, {
+    "text": "J 'ouvre blender.\n...\n...\nJ'exporte un fichier STL.",
+    "id": 10
+  }, {
+    "text": "Je ne connaît pas les dimensions de l'impression. Il faut que je trouve mon imprimante.",
+    "id": 11
+  }, {
+    "text": "Contacter Milieux. Contacter le Digifab. Il faut être indépendant pour Milieux. Je suis pas indépendante.",
+    "id": 12
+  }, {
+    "text": "Digifab (Jules) me donne un rendez-vous. Il me dit qu'il est débordé et que je pourrais utiliser l'impression à la résine pour une peu plus cher.",
+    "id": 13
+  }, {
+    "text": "Il ne donne pas suite à mes courriels.",
+    "id": 14
+  }, {
+    "text": "Je contacte mes collègues (qui me font croire qu'avoir une imprimante 3D à la maison c'est commun).",
+    "id": 15
+  }, {
+    "text": "Elles m'offrent de l'aide, elles font l'impression pour moi.\nSOU-LA-GE-MENT.\nNotre rencontre pour sélectionner notre échantillon favori est dans quelques jours seulement.",
+    "id": 16
+  }, {
+    "text": "Merci.",
+    "id": 17
+  }, {
+    "text": "Je marche vers le studio (surnom affectueux pour le salon de MC), un peu gênée d'arriver les mains vides, sans mes échantillons. MAIS très enthousiaste de voir la machine 3D à l'oeuvre, de pouvoir enfin manipuler les échantillons de mes co-chercheuses et le mien.",
+    "id": 18
+  }, {
+    "text": "TPU, PLA, Raft... J'apprends des nouveaux mots. Elles m'impressionnent.",
+    "id": 19
+  }, {
+    "text": "Je manipule, plis, observe, (casse), et bouge les échantillons. Je comprends enfin l'enthousiaste d'Audrey et MC pour les textiles 3D.",
+    "id": 20
+  }, {
+    "text": "Émerveillement.",
+    "id": 21
+  }, {
+    "text": "Lequel sera l'élu pour le prototype? J'ai un faible pour les cubes de TPU qui me font penser à une mangue coupé en grille et convexe",
+    "id": 22
+  }, {
+    "text": "Je bouge cet échantillon, le lance, le pose sur nos articulations pour qu'ils s'ouvrent avec nos mouvements. Je le bouge avec mes doigts comme dans un gant. J'essaie de trouver comment faire des vagues.",
+    "id": 23
+  }, {
+    "text": "Une idée émerge: un manchon.",
+    "id": 24
+  }, {
+    "text": "Les bras deviennents un. Le mouvement des mains et des doigts fonts bouger les cubes par vague.",
+    "id": 25
+  }, {
+    "text": "Comment mettre en valeur la vague? Comment accentuer cette effet pour qu'il soit visible de loin.",
+    "id": 26
+  }, {
+    "text": "La surface des cubes sont plates. On pourrait y coller des miroirs... ou des vieux CDs! Avec des jeux de lumière ça ferait vraiment ressortir la texture du mouvement.",
+    "id": 27
+  }, {
+    "text": "Je propose, elles enrichissent, on mesure, planifie et se quitte pleine d'inspiration.",
+    "id": 28
+  }, {
+    "text": "Textile 3D ou boule disco, nous verrons bien comment le prototype évolu.",
+    "id": 29
+  }, {
+    "text": "À suivre...",
+    "id": 30
+  }]
+}
